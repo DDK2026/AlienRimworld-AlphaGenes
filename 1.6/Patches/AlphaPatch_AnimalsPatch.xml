@@ -46,7 +46,7 @@
    </Operation>
 
   <Operation Class="PatchOperationAddModExtension">
-     <xpath>Defs/ThingDef[defName="Cassowary" or defName="Emu" or defname="Ostrich"]</xpath>
+     <xpath>Defs/ThingDef[defName="Cassowary" or defName="Emu" or defName="Ostrich"]</xpath>
      <value>
        <li Class="Xenomorphtype.AnimalHostGenes">
          <genes>
@@ -204,7 +204,7 @@
      <value>
        <li Class="Xenomorphtype.AnimalHostGenes">
          <genes>
-           <li MayRequire="sarg.alphagenes">AG_FrostbiteResistance</li>
+           <li MayRequire="sarg.alphagenes">AG_Rowdy</li>
          </genes>
        </li>
      </value>
