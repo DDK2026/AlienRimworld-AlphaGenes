@@ -11,4 +11,170 @@
        </li>
      </value>
    </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Megascarab" or defName="Megaspider" or defName="Spelopede"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_MiningYield_High</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="LavaSnail"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_SlugBody</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="LavaSnail"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_HeatImmunity</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Cassowary" or defName="Emu" or defname="Ostrich"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_Digitigrade</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="BogHound" or defName="WasteRat" or defName="MonitorLizard"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_VenomFangs</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Ibex" or defName="Deer"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_AntlerHorns</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Boomalope" or defName="Toxalope"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_BoomNodules</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="ScimitarCat" or defName="Cougar" or defName="Panther" or defName="Lynx"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_ClawedHands</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="MonitorLizard" or defName="Iguana"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_LimbRegeneration</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="ScimitarCat" or defName="ArcticFox" or defName="ArcticWolf" or defName="Mastodon"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_FrostbiteResistance</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Muffalo" or defName="Bison" or defName="Mastodon"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_PackMule</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Cow" or defName="Hippo" or defName="Rhino"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_ExtraLeather</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Cat"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_Thalassophobia</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+   <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="AlphaThrumbo" or defName="Thrumbo"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_DangerousRaidPresence</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Iguana" or defName="Cobra" or defName="Tortoise" or defName="MonitorLizard" or defName="Alligator" or defName="Bullfrog" or defName="ColossusToad"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_SpeedByTemperature</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+  
  </Patch>
