@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<patch>
+    <?xml version="1.0" encoding="utf-8"?>
+    <Patch>
+      <!--  -->
+      <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="Megascarab" or defName="Spelopede" or defName="Megaspider"]</xpath>
+        <value>
+          <li Class="Xenomorphtype.AnimalHostGenes">
+            <genes>
+              <li MayRequire="my.cool.genemod">My_InsectoidGene_1</li>
+              <li MayRequire="my.cool.genemod">My_InsectoidGene_2</li>
+            </genes>
+          </li>
+        </value>
+      </Operation>
+    </Patch>
+
+    
+    
+    
+    
+    
+    
+    
+    
+</patch>
