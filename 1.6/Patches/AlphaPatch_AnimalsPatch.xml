@@ -176,5 +176,49 @@
        </li>
      </value>
    </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Walrus" or defName="SeaLion" or defName="Seal" or defName="HermitCrab" or defName="StoneCrab" or defName="SeaTurtle" or defName="Otter" or defName="Alligator"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_WaterStriding</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="AlphaThrumbo" or defName="Thrumbo" or defName="Elephant"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_InnerPeace</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+<Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="ScimitarCat" or defName="Cat" or defName="Cougar" or defName="ArcticFox" or defName="RedFox" or defName="FennecFox" or defName="Warg" or defName="Panther"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_FrostbiteResistance</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Heron" or defName="Swan" or defName="Flamingo"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_InnerPeace</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
   
  </Patch>
