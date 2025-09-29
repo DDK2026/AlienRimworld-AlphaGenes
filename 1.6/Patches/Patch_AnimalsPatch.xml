@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Patch>
+  <!--  -->
+   <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Elephant" or defName="Rhino" or defName="Mastodon" or defName="Hippo" or defName="Megasloth"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="sarg.alphagenes">AG_LargerBodySize</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+ </Patch>
