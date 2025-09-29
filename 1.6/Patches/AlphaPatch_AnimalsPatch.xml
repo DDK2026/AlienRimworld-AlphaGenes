@@ -2,7 +2,7 @@
  <Patch>
   <!--  -->
    <Operation Class="PatchOperationAddModExtension">
-     <xpath>Defs/ThingDef[defName="Elephant" or defName="Rhino" or defName="Mastodon" or defName="Hippo" or defName="Megasloth"]</xpath>
+     <xpath>Defs/ThingDef[defName="Elephant" or defName="Rhinoceros" or defName="Mastodon" or defName="Hippo" or defName="Megasloth"]</xpath>
      <value>
        <li Class="Xenomorphtype.AnimalHostGenes">
          <genes>
@@ -134,7 +134,7 @@
    </Operation>
 
   <Operation Class="PatchOperationAddModExtension">
-     <xpath>Defs/ThingDef[defName="Cow" or defName="Hippo" or defName="Rhino"]</xpath>
+     <xpath>Defs/ThingDef[defName="Cow" or defName="Hippo" or defName="Rhinoceros"]</xpath>
      <value>
        <li Class="Xenomorphtype.AnimalHostGenes">
          <genes>
