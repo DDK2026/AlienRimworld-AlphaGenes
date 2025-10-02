@@ -68,33 +68,11 @@
    </Operation>
 
   <Operation Class="PatchOperationAddModExtension">
-     <xpath>Defs/ThingDef[defName="Ibex" or defName="Deer"]</xpath>
-     <value>
-       <li Class="Xenomorphtype.AnimalHostGenes">
-         <genes>
-           <li MayRequire="sarg.alphagenes">AG_AntlerHorns</li>
-         </genes>
-       </li>
-     </value>
-   </Operation>
-
-  <Operation Class="PatchOperationAddModExtension">
      <xpath>Defs/ThingDef[defName="Boomalope" or defName="Toxalope"]</xpath>
      <value>
        <li Class="Xenomorphtype.AnimalHostGenes">
          <genes>
            <li MayRequire="sarg.alphagenes">AG_BoomNodules</li>
-         </genes>
-       </li>
-     </value>
-   </Operation>
-
-  <Operation Class="PatchOperationAddModExtension">
-     <xpath>Defs/ThingDef[defName="ScimitarCat" or defName="Cougar" or defName="Panther" or defName="Lynx"]</xpath>
-     <value>
-       <li Class="Xenomorphtype.AnimalHostGenes">
-         <genes>
-           <li MayRequire="sarg.alphagenes">AG_ClawedHands</li>
          </genes>
        </li>
      </value>
