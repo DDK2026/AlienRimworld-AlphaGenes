@@ -14,12 +14,12 @@ v0.0.1
     <modDependencies>
         <li>
             <packageId>niz.xenomorphtype</packageId>
-            <displayname>Alien | Rimworld</displayname>
+            <displayName>Alien | Rimworld</displayName>
             <downloadUrl>https://github.com/nighzmarquls/Alien-Rimworld</downloadUrl>
         </li>
         <li>
             <packageId>sarg.alphagenes</packageId>
-            <displayname>Alpha Genetics</displayname>
+            <displayName>Alpha Genetics</displayName>
             <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502</steamWorkshopUrl>
         </li>
     </modDependencies>
